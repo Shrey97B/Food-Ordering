@@ -1,0 +1,167 @@
+body{
+	background: rgb(81, 80, 80);
+}
+.box{
+
+	height:450px;
+	width:27%;
+	background-color: rgba(255,255,255,0.9);
+	margin: auto;
+	margin-top: 100px;
+    padding: 20px;
+    overflow: hidden;
+    border: 2px solid black;
+
+     border-radius: 20px;
+                box-shadow: 5px 5px 20px 15px black;
+}
+
+.logo{
+    padding: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+form{
+     border: 2px solid grey;
+                border-radius: 12px;
+                padding: 20px;
+}
+
+.box label{
+    font-size: 24px;
+    
+    width: 100%
+}
+
+
+
+.textrec{
+   
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width: 60%;
+	height: 55px;
+	font-size: 22px;
+        border: 2px solid grey;
+         border-radius: 10px;
+	border-bottom: 2px solid purple;
+}
+
+.butd{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.butd button{
+	  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+20,0a77d5+54,539fe1+87,87bcea+100 */
+ 
+         background-color: rgb(38, 0, 255);
+    	border-radius: 50% / 40%;
+	border: none;
+	height: 40px;
+	font-size: 20px;
+	width:35%;
+
+}
+
+.butd button:hover{
+	cursor: pointer;
+	background-color: rgb(110, 0, 255);
+	box-shadow: 1px 1px 2px 2px black;
+
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.forpwd{
+	text-align: center;
+	margin-top: 25px;
+    background-color: rgba(0,43,6,0.85);
+}
+
+.forpwd a{
+	color: rgb(244,0,203);
+	text-decoration: none;
+	font-size: 22px;
+}
+
+.forpwd a:hover{
+	color: rgb(255,0,0);
+	
+}
+
+.fa-envelope{
+	position: absolute;
+	margin-top: 40px;
+	margin-left:250px;
+}
+
+.fa-lock{
+	position: absolute;
+	margin-top: 40px;
+	margin-left:220px;
+}
